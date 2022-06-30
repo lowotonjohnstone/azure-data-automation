@@ -1,0 +1,10 @@
+{
+	"name": "synapse-ws-sql--jllakehousetst1",
+	"properties": {
+		"privateLinkResourceId": "/subscriptions/e00c3a7f-c702-48b2-bf38-a2a690f440b8/resourceGroups/Data-team/providers/Microsoft.Synapse/workspaces/jllakehousetst1",
+		"groupId": "sql",
+		"fqdns": [
+			"jllakehousetst1.971c7079-748e-4012-810b-5f9d90b6f3f1.sql.azuresynapse.net"
+		]
+	}
+}

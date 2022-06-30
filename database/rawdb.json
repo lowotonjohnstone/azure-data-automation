@@ -1,0 +1,25 @@
+{
+	"name": "rawdb",
+	"properties": {
+		"Name": "rawdb",
+		"EntityType": "DATABASE",
+		"Origin": {
+			"Type": "SPARK"
+		},
+		"Properties": {
+			"IsSyMSCDMDatabase": true
+		},
+		"Source": {
+			"Provider": "ADLS",
+			"Location": "abfss://jltest@testlakedb.dfs.core.windows.net/rawdb",
+			"Properties": {
+				"FormatType": "csv",
+				"LinkedServiceName": "jllakehousetst1-WorkspaceDefaultStorage"
+			}
+		},
+		"PublishStatus": "PUBLISHED",
+		"ObjectVersion": 1,
+		"ObjectId": "80f2e3a3-0303-4cf4-a751-c6a6fc80d827"
+	},
+	"type": "DATABASE"
+}

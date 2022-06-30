@@ -1,0 +1,7 @@
+{
+	"name": "synapse-ws-custstgacct--jllakehousetst1-testlakedb",
+	"properties": {
+		"privateLinkResourceId": "/subscriptions/e00c3a7f-c702-48b2-bf38-a2a690f440b8/resourceGroups/Data-team/providers/Microsoft.Storage/storageAccounts/testlakedb",
+		"groupId": "dfs"
+	}
+}
