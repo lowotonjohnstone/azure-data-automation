@@ -1,7 +1,7 @@
 {
-	"name": "Dim_Activities",
+	"name": "Dim_Participants",
 	"properties": {
-		"Name": "Dim_Activities",
+		"Name": "Dim_Participants",
 		"EntityType": "TABLE",
 		"Namespace": {
 			"DatabaseName": "Testdb"
@@ -225,7 +225,7 @@
 				"FormatType": "csv",
 				"SerializeLib": "org.apache.hadoop.hive.serde2.lazy.LazySimpleSerDe",
 				"Properties": {
-					"path": "abfss://jltest@testlakedb.dfs.core.windows.net/Clean data",
+					"path": "abfss://jltest@testlakedb.dfs.core.windows.net/Clean data/Dim_Participants",
 					"delimiter": ",",
 					"multiLine": "false",
 					"firstRowAsHeader": "true",
@@ -236,7 +236,7 @@
 			},
 			"Source": {
 				"Provider": "ADLS",
-				"Location": "abfss://jltest@testlakedb.dfs.core.windows.net/Clean data",
+				"Location": "abfss://jltest@testlakedb.dfs.core.windows.net/Clean data/Dim_Participants",
 				"Properties": {
 					"LinkedServiceName": "jllakehousetst1-WorkspaceDefaultStorage",
 					"LocationSetToDatabaseDefault": false
