@@ -1,0 +1,22 @@
+{
+	"name": "Testdb",
+	"properties": {
+		"Name": "Testdb",
+		"EntityType": "DATABASE",
+		"Origin": {
+			"Type": "SPARK"
+		},
+		"Properties": {
+			"IsSyMSCDMDatabase": true
+		},
+		"Source": {
+			"Provider": "ADLS",
+			"Location": "abfss://jltest@testlakedb.dfs.core.windows.net/Clean data",
+			"Properties": {
+				"FormatType": "csv",
+				"LinkedServiceName": "jllakehousetst1-WorkspaceDefaultStorage"
+			}
+		}
+	},
+	"type": "DATABASE"
+}
